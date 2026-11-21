@@ -124,7 +124,10 @@ If a Discord client update changes an internal store name or API payload:
 - Void Tech Studios Website: [voidtechstudios.us](https://voidtechstudios.us/)
 - Donate to help keep the lights on: [Buy Me a Coffee](https://buymeacoffee.com/rustforgedev)
 
+---
+
 ## Disclaimer
 
-OrbKit Quest Completer is an independent project by Void Tech Studios and is not affiliated with, endorsed by, or connected to Discord Inc. Use optional CDP features at your own discretion. 
-This is purely for educational purposes only.
+OrbKit Quest Completer is an independent project by Void Tech Studios and is not affiliated with, endorsed by, or connected to Discord Inc.
+
+This software is provided "AS IS", without warranty of any kind, express or implied. By downloading or using this application, you agree that you are doing so entirely at your own risk. Void Tech Studios is not responsible or liable for any account warnings, quest suspensions, bans, or other actions taken against your Discord account.
