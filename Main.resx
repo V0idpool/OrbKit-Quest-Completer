@@ -132,7 +132,7 @@
 - Not required for Manual Game Runner: You can run game quests without relaunching Discord or connecting to CDP.
 - Syncs live eligible quests and your current Orb balance, and automatically halts all quests if questAccessSuspendedUntil or questEnrollmentBlockedUntil is detected.
 - Video quests pace progress ticks through Discord's own Chromium stack. Defaults to 7.0-9.5s to match Discord's native player heartbeat, with customizable min/max interval sliders, an Auto-Enroll toggle, and reset.
-- Preferences (Auto-CDP, video pacing, and auto-enroll) are saved locally in %LocalAppData%\DiscordQuestCompleter\settings.json.
+- Preferences (Auto-CDP, video pacing, and auto-enroll) are saved locally in %LocalAppData%\OrbKit\settings.json.
 
 [EXTERNAL CDP PATCH SCRIPTS AND VALIDATION]
 - Supports hot-swapping CDP logic via Scripts\cdp_patch.js in the application folder so broken Discord store or API paths can be patched without waiting for a new executable build.
