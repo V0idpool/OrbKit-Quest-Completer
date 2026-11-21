@@ -500,7 +500,7 @@ public partial class Main : Form
             double total = Math.Max(1, p.TargetSeconds + p.TailSeconds);
             int pct = (int)Math.Clamp((p.ElapsedSeconds / total) * 100.0, 0, 100);
             _progressBar.Value = pct;
-            _lblActiveStatus.Text = $"{label} — {p.Phase}: {TimeSpan.FromSeconds(p.ElapsedSeconds):mm\\:ss} / {TimeSpan.FromSeconds(p.TargetSeconds):mm\\:ss}" +
+            _lblActiveStatus.Text = $"{label} - {p.Phase}: {TimeSpan.FromSeconds(p.ElapsedSeconds):mm\\:ss} / {TimeSpan.FromSeconds(p.TargetSeconds):mm\\:ss}" +
                                     (p.TailSeconds > 0 ? $" (+{p.TailSeconds:F0}s tail)" : "");
         });
 
