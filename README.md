@@ -1,5 +1,9 @@
 # OrbKit Quest Completer
 
+<p align="center">
+  <img width="1151" height="840" alt="OrbKitMain" src="https://github.com/user-attachments/assets/0b5ee485-334a-4c34-b431-b2fd099f3efe" />
+</p>
+
 **An app for completing Discord game and video quests without token extraction, memory patching, or permanent Discord client modifications.**
 
 *Developed by [Void Tech Studios](https://voidtechstudios.us/)*
