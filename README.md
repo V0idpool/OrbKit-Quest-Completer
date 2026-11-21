@@ -15,7 +15,7 @@
 ### Manual Game Runner (Lowest Risk)
 - Fetches Discord's official detectable games catalog (`https://discord.com/api/v9/applications/detectable`) and caches it locally for 12 hours.
 - Resolves Win32 executable paths via `ExePicker` and allows selecting a specific binary when a game registers multiple executables.
-- Copies a lightweight dummy host (`STUB\StubHost.exe`) to the exact registered relative game path under `%LocalAppData%\DiscordQuestCompleter\Staging` so Discord detects a real Windows executable and generates a valid `executable_fingerprint`.
+- Copies a lightweight dummy host (`STUB\StubHost.exe`) to the exact registered relative game path under `%LocalAppData%\OrbKit\Staging` so Discord detects a real Windows executable and generates a valid `executable_fingerprint`.
 - Configurable quest duration (1 to 120 minutes) with a randomized overshoot tail (0 to 15 minutes) so sessions do not terminate on the exact quest timer.
 - Kills the dummy process tree and deletes the staged game executable automatically when a session finishes or is stopped.
 
@@ -100,7 +100,7 @@ For moving controls between overlapping containers or inspecting hidden elements
 
 ## Local Data and Configuration
 
-App files are stored in `%LocalAppData%\DiscordQuestCompleter\`:
+App files are stored in `%LocalAppData%\OrbKit\`:
 - `settings.json`: Persists settings like `AutoConnectCdp`, `VideoPaceMinSec`, `VideoPaceMaxSec`, and `AutoEnrollVideo`.
 - `Cache\detectable_games.json`: Cached copy of Discord's detectable games list (refreshes every 12 hours or via **Refresh List**).
 - `Staging\`: Temporary directory where `StubHost.exe` is copied during active game quest sessions and cleaned up afterward.
