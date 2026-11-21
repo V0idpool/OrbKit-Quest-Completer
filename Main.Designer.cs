@@ -931,7 +931,7 @@
             _lblVideoPaceHint.Name = "_lblVideoPaceHint";
             _lblVideoPaceHint.Size = new Size(318, 28);
             _lblVideoPaceHint.TabIndex = 6;
-            _lblVideoPaceHint.Text = "Matches Discord's video player heartbeat (7.0–9.5s).";
+            _lblVideoPaceHint.Text = "Matches Discord's video player heartbeat (7.0-9.5s).";
             // 
             // lblVideoAutoEnroll
             // 
