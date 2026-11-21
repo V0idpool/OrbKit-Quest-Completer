@@ -12,7 +12,7 @@ public partial class Main : Form
 {
     private readonly string _appDataDir = Path.Combine(
         Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData),
-        "DiscordQuestCompleter");
+        "OrbKit");
 
     private readonly GameRegistry _registry;
     private readonly DummyExe _runner;
