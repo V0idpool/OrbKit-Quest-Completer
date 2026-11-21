@@ -191,7 +191,7 @@ public sealed class DiscordCdpBridge
         double cur = quest.Progress;
         double target = Math.Max(1, quest.Target);
 
-        log?.Report($"Running video quest: \"{quest.Name}\" ({cur:F0}s / {target:F0}s) | sending progress every {minMs / 1000.0:F1}–{maxMs / 1000.0:F1}s...");
+        log?.Report($"Running video quest: \"{quest.Name}\" ({cur:F0}s / {target:F0}s) | sending progress every {minMs / 1000.0:F1}-{maxMs / 1000.0:F1}s...");
 
         while (cur < target)
         {
