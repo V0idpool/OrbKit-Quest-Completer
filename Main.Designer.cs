@@ -666,7 +666,7 @@
             btnWinMin.ShowIconBox = false;
             btnWinMin.Size = new Size(32, 28);
             btnWinMin.TabIndex = 11;
-            btnWinMin.Text = "—";
+            btnWinMin.Text = "-";
             btnWinMin.Click += btnWinMin_Click;
             // 
             // btnWinClose
