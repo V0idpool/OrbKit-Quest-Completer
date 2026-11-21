@@ -1565,7 +1565,7 @@ namespace OrbKit_Quest_Completer.GUI
                 return FDPalette.AccentOrange;
 
             if (val.Equals("Disconnected", StringComparison.OrdinalIgnoreCase) ||
-                val == "—" || val == "-")
+                val == "-" || val == "-")
                 return FDPalette.TextMuted;
 
             if (_prefix.Contains("ORB", StringComparison.OrdinalIgnoreCase))
